@@ -1,0 +1,735 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.ancho {
+  width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+
+.cuadro1 {
+  background-image: url("imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1600;
+  height: 800px;
+  border: 20px solid black;
+}
+
+.menu {
+  width: 550px;
+  text-align: center;
+  margin-left: 700px;
+  margin-top: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu a:hover {
+  color:#333333
+}
+
+.fotopeq {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  float: left;
+  margin-left: 102px;
+  margin-top: -12px;
+}
+
+.texto {
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  margin-top: 310px;
+  margin-left: 411px;
+  font-size: normal;
+  font-family: Verdana;
+}
+
+.texto h2 {
+  color: whitesmoke;
+  font-size: 300%;
+}
+
+.diego {
+  color: white;
+}
+
+.diego:hover {
+  color: black;
+}
+
+.hesiquio {
+  color: white;
+}
+
+.hesiquio:hover {
+  color: black;
+}
+
+.texto h5 {
+  margin-top: -1px;
+  font-size: 120%;
+}
+
+.cuadro2 {
+  background-image: url("imagenes/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1600;
+  height: 800px;
+  border: 20px solid black;
+}
+
+.yo {
+  padding: 100px;
+  margin: auto;
+  margin-top: 55px;
+  color: white;
+}
+
+.yo h2 {
+  height: 30px;
+  width: 170px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.borde {
+  width: 10px;
+  height: 50px;
+  background-color: yellow;
+  margin-top: -50px;
+}
+
+.borde h2 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 12px;
+  font-size: 300%;
+  width: 280px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fotognd {
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.textoimggnd {
+  width: 180px;
+  height: 30px;
+  margin-left: 480px;
+  margin-top: -400px;
+  color: red;
+  font-size: 150%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.biografia {
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: -350px;
+}
+
+.textoimggnd_ {
+  width: 470px;
+  height: 55px;
+  margin-left: 480px;
+  margin-top: -5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textoimggnd__ {
+  width: 470px;
+  height: 100px;
+  margin-left: 480px;
+  margin-top: -20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.casilla1 {
+  width: 470px;
+  height: 30px;
+  margin-left: 380px;
+  margin-left: 480px;
+}
+
+.casilla1_ {
+  margin-top: 3px;
+}
+
+.casilla1__ {
+  text-align: right;
+  margin-top: -24px;
+}
+
+.casilla2 {
+  width: 538px;
+  height: 30px;
+  margin-left: 480px;
+  margin-top: -15px;
+}
+
+.casilla2_ {
+  margin-top: 3px;
+}
+
+.casilla2__ {
+  text-align: right;
+  margin-top: -24px;
+}
+
+.nombre {
+  color: red;
+}
+
+.edad {
+  color: red;
+}
+
+.email {
+  color: red;
+}
+
+.lugar {
+  color: red;
+}
+
+.boton_des {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid black;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  margin-left: 730px;
+  margin-bottom: 10px;
+}
+
+.boton_des:hover {
+  background-color: #800000;
+}
+
+.icono_des {
+  float: left;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-left: -8px;
+}
+
+.texto_des a {
+  float: right;
+  margin-left: -5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 2px;
+}
+
+.cuadro3 {
+  background-image: url("imagenes/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1600;
+  height: 800px;
+  border: 20px solid black;
+}
+
+
+.borde_ {
+  padding: 100px;
+}
+
+.borde__ {
+  width: 10px;
+  height: 50px;
+  background-color: yellow;
+  margin-top: -90px;
+  margin-left: 100px;
+}
+
+.borde__ h2 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 12px;
+  font-size: 300%;
+  width: 280px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white
+}
+
+.cuadroint {
+  width: 1300px;
+  height: 600px;
+  margin: auto;
+}
+
+.serv1 {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  margin-left: 950px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.serv1:hover {
+  background-color: cornflowerblue;
+}
+
+.icono1 {
+  height: 80px;
+  width: 80px;
+  margin-left: 85px;
+  color: white;
+  object-fit: cover;
+}
+
+.textoint_ {
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  margin-top: 15px;
+}
+
+.textoint__ {
+  font-size: 90%;
+  color: white;
+  margin-top: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.serv2 {
+  margin-top: -250px;
+  width: 250px;
+  height: 250px;
+  margin-left: 528px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.serv2:hover {
+  background-color: cornflowerblue;
+}
+
+.serv3 {
+  margin-top: -250px;
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.serv3:hover {
+  background-color: cornflowerblue;
+}
+
+.recuadrosabajo {
+  height: 250px;
+  margin-top: 30px;
+}
+
+.serv4 {
+  width: 250px;
+  height: 250px;
+  margin-left: 950px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.serv4:hover {
+  background-color: cornflowerblue;
+}
+.serv5 {
+  width: 250px;
+  height: 250px;
+  margin-left: 528px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin-top: -250px;
+  border: 3px solid black;
+}
+
+.serv5:hover {
+  background-color: cornflowerblue;
+}
+.serv6 {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin-top: -250px;
+  border: 3px solid black;
+}
+
+.serv6:hover {
+  background-color: cornflowerblue;
+}
+
+.cuadro4 {
+  background-color: #800000;
+  width: 1600;
+  height: 1050px;
+  border: 20px solid black;
+}
+
+.borde___ {
+  width: 10px;
+  height: 50px;
+  background-color: yellow;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.borde___ h2 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 12px;
+  font-size: 300%;
+  width: 280px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.cuadroint_ {
+  width: 1300px;
+  height: 900px;
+  margin: auto;
+}
+
+.primerfila {
+  width: 1300px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.img1 {
+  background-image: url("imagenes/portafolio1.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 850px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1:hover {
+  border: 3px solid white;
+}
+
+.img2 {
+  background-image: url("imagenes/portafolio2.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 555px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2:hover {
+  border: 3px solid white;
+}
+
+.img3 {
+  background-image: url("imagenes/portafolio3.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 255px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3:hover {
+  border: 3px solid white;
+}
+
+.segundafila {
+  width: 1300px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.img4 {
+  background-image: url("imagenes/portafolio4.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 255px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img4:hover {
+  border: 3px solid white;
+}
+
+.img5 {
+  background-image: url("imagenes/portafolio5.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 555px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img5:hover {
+  border: 3px solid white;
+}
+
+.img6 {
+  background-image: url("imagenes/portafolio6.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 850px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img6:hover {
+  border: 3px solid white;
+}
+
+.tercerafila {
+  width: 1300px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.img7 {
+  background-image: url("imagenes/portafolio7.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 850px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img7:hover {
+  border: 3px solid white;
+}
+
+.img8 {
+  background-image: url("imagenes/portafolio8.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 555px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img8:hover {
+  border: 3px solid white;
+}
+
+.img9 {
+  background-image: url("imagenes/portafolio9.jpg");
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin-left: 255px;
+  margin-top: -200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img9:hover {
+  border: 3px solid white;
+}
+
+.cuadro5 {
+  width: 1600;
+  height: 800px;
+  border: 20px solid black;
+  background-color: #800000;
+}
+
+.contenedor-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+
+.contenedor-form h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  color: black;
+}
+
+.contenedor-form form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.info-form p {
+  color: black;
+}
+
+.contenedor-form a {
+  font-size:17px;
+  display: inline-block;
+  text-decoration:none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.contenedor-form a i {
+  color: orange;
+  margin-right:  10px;
+}
+
+.contenedor-form form .campo, textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+
+.contenedor-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.contenedor-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: orange;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.contenedor-form .btn-enviar1:hover {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.linea {
+  border: 3px solid black;
+  width: 1100px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.redessociales {
+  width: 500px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+  margin-right: 51px;
+}
+
+.facebook:hover {
+  border: 1px solid black;
+}
+
+.youtube {
+  width: 25px;
+  height: 25px;
+  margin-right: 50px;
+}
+
+.youtube:hover {
+  border: 1px solid black;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  margin-right: 50px;
+}
+
+.instagram:hover {
+  border: 1px solid black;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter:hover {
+  border: 1px solid black;
+}
