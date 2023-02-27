@@ -60,7 +60,7 @@ body {
   width: 500px;
   height: 100px;
   margin-top: 310px;
-  margin-left: 411px;
+  margin-left: 414px;
   font-size: normal;
   font-family: Verdana;
 }
@@ -80,7 +80,7 @@ body {
 
 .hesiquio {
   color: white;
-}
+} 
 
 .hesiquio:hover {
   color: black;
@@ -92,9 +92,8 @@ body {
 }
 
 .cuadro2 {
-  background-image: url("imagenes/fondo2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(18,18,31);
+  background: linear-gradient(180deg, rgba(18,18,31,1) 0%, rgba(21,34,142,1) 51%, rgba(4,10,56,1) 100%);
   width: 1600;
   height: 800px;
   border: 20px solid black;
@@ -117,7 +116,7 @@ body {
 .borde {
   width: 10px;
   height: 50px;
-  background-color: yellow;
+  background-color: orange;
   margin-top: -50px;
 }
 
@@ -142,7 +141,7 @@ body {
   height: 30px;
   margin-left: 480px;
   margin-top: -400px;
-  color: red;
+  color: orange;
   font-size: 150%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -203,19 +202,19 @@ body {
 }
 
 .nombre {
-  color: red;
+  color: orange;
 }
 
 .edad {
-  color: red;
+  color: orange;
 }
 
 .email {
-  color: red;
+  color: orange;
 }
 
 .lugar {
-  color: red;
+  color: orange;
 }
 
 .boton_des {
@@ -252,12 +251,10 @@ body {
 }
 
 .cuadro3 {
-  background-image: url("imagenes/fondo2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 1600;
   height: 800px;
   border: 20px solid black;
+  background: rgba(4,10,56,1);
 }
 
 
@@ -268,7 +265,7 @@ body {
 .borde__ {
   width: 10px;
   height: 50px;
-  background-color: yellow;
+  background-color: orange;
   margin-top: -90px;
   margin-left: 100px;
 }
@@ -301,6 +298,7 @@ body {
 
 .serv1:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 
 .icono1 {
@@ -338,6 +336,7 @@ body {
 
 .serv2:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 
 .serv3 {
@@ -352,6 +351,7 @@ body {
 
 .serv3:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 
 .recuadrosabajo {
@@ -370,6 +370,7 @@ body {
 
 .serv4:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 .serv5 {
   width: 250px;
@@ -383,6 +384,7 @@ body {
 
 .serv5:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 .serv6 {
   width: 250px;
@@ -396,10 +398,11 @@ body {
 
 .serv6:hover {
   background-color: cornflowerblue;
+  border: 3px solid white;
 }
 
 .cuadro4 {
-  background-color: #800000;
+  background-color:#070d74;
   width: 1600;
   height: 1050px;
   border: 20px solid black;
@@ -448,7 +451,7 @@ body {
 }
 
 .img1:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img2 {
@@ -465,7 +468,7 @@ body {
 }
 
 .img2:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img3 {
@@ -482,7 +485,7 @@ body {
 }
 
 .img3:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .segundafila {
@@ -504,7 +507,7 @@ body {
 }
 
 .img4:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img5 {
@@ -521,7 +524,7 @@ body {
 }
 
 .img5:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img6 {
@@ -538,7 +541,7 @@ body {
 }
 
 .img6:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .tercerafila {
@@ -560,7 +563,7 @@ body {
 }
 
 .img7:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img8 {
@@ -577,7 +580,7 @@ body {
 }
 
 .img8:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .img9 {
@@ -594,14 +597,14 @@ body {
 }
 
 .img9:hover {
-  border: 3px solid white;
+  border: 3px solid gray;
 }
 
 .cuadro5 {
   width: 1600;
   height: 800px;
   border: 20px solid black;
-  background-color: #800000;
+  background: rgba(4,10,56,1);
 }
 
 .contenedor-form {
@@ -617,7 +620,7 @@ body {
 .contenedor-form h2 {
   margin-bottom: 15px;
   font-size: 35px;
-  color: black;
+  color: white;
 }
 
 .contenedor-form form p {
@@ -628,7 +631,7 @@ body {
 }
 
 .info-form p {
-  color: black;
+  color: white;
 }
 
 .contenedor-form a {
@@ -644,6 +647,10 @@ body {
 .contenedor-form a i {
   color: orange;
   margin-right:  10px;
+}
+
+.contenedor-form a {
+  color: white;
 }
 
 .contenedor-form form .campo, textarea {
@@ -681,7 +688,7 @@ body {
 }
 
 .linea {
-  border: 3px solid black;
+  border: 3px solid white;
   width: 1100px;
   margin: auto;
   margin-top: 200px;
@@ -702,7 +709,7 @@ body {
 }
 
 .facebook:hover {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .youtube {
@@ -712,7 +719,7 @@ body {
 }
 
 .youtube:hover {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .instagram {
@@ -722,7 +729,7 @@ body {
 }
 
 .instagram:hover {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .twitter {
@@ -731,5 +738,5 @@ body {
 }
 
 .twitter:hover {
-  border: 1px solid black;
+  border: 1px solid white;
 }
